@@ -4,7 +4,7 @@ WORKDIR /home/data
 
 COPY . .
 
-RUN npm start
+RUN npm install
 
 EXPOSE 8000
 
